@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#mainBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+}
+.resultPlay{
+    height: 40px;
+    width: 100px;
+    background-color: aquamarine;
+}
+.clearBtn {
+    margin: 5px;
+}
+.keyContainer {
+    display: flex;
+    flex-direction: row;
+}
+.operateContainer{
+    display: flex;
+    flex-direction: column;
+}
+.numContainer{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: min-content;
+}
+.numKeyContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
