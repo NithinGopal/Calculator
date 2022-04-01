@@ -32,7 +32,6 @@ body {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    width: min-content;
 }
 .numKeyContainer{
     display: flex;
