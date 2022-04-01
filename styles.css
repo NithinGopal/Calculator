@@ -1,6 +1,5 @@
 body {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -9,15 +8,34 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: max-content;
+    height: fit-content;
+    background-color: darkslategray;
+    padding: 20px 10px;
+    border: 1ps solid whitesmoke;
+    border-radius: 5px;
 }
+
 .resultPlay{
-    height: 40px;
-    width: 100px;
-    background-color: aquamarine;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    padding: 10px 0;
+    border-radius: 5px;
 }
+
+.resetbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .clearBtn {
     margin: 5px;
+    width: 50%;
+    background-color: pink;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px 16px;
 }
 .keyContainer {
     display: flex;
@@ -27,14 +45,27 @@ body {
     display: flex;
     flex-direction: column;
 }
-.numContainer{
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-}
+
 .numKeyContainer{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
+   flex-direction: column;
 }
+.zeroDotEqualContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.numKeys {
+    border: 1px solid grey;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin: 2px;
+    font-weight: bold;
+}
+.numKeys:hover{
+    background-color: chartreuse;
+    size: 110%;
+}
+
